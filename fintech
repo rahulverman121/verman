@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+header { display : inline ; }
+
+.profile { border-radius : 50% ; background-image : url("avatar.png") ;background-color : grey ; width : 60px; height : 60px ;}
+.banner,.appstore { margin : 3% 1% 3% 1% ; background-image : url("poster.jpg") ; height : 16% ;}
+main { margin : 2% 6% 4% 6%; }
+label { font-weight : bold ; font-size : 1.2rem ;  }
+@media only screen and (max-width: 480px) {
+label { font-weight : bold ; font-size : 1.2rem ;}
+.postimage{ margin : 0.2rem 0 3% 0.2rem ;  background-image : url("post2.jpeg") ; height : 12rem ; background-size : cover }
+}
+
+@media only screen and (min-width: 800px) {
+.right { float : right ; }
+main { font-size : 2rem }
+.blog { flex : 60% ; font-size : 2rem }
+
+label { font-weight : bold ; font-size : 1.8rem ; flex : 5% ; text-decoration : underline ; text-decoration-color : grey }
+.postimage{ margin : 1rem ;  background-image : url("post2.jpeg") ; height : auto ; width : 20rem; background-size : cover ; flex : 30% ;justify-content : right }
+.post { margin : 10% 0 10% 0 ; display : flex }
+}
+.post { margin : 10% 0 10% 0 ;}
+footer { text-align : center ; font-size : 0.7rem ;}
+.download { display : flex ; padding : 5px ; justify-content : center }
+.appstore{ margin : 3% 1% 3% 1% ; background-image : url("appstore.png") ; height : 3.4rem ; width : 9rem ; background-size : cover }
+.googleplay{ margin : 3% 1% 3% 1% ; background-image : url("googleplay.png") ; height : 3rem ; width : 10rem ; background-size : cover }
+
+
+only screen and (min-width: 768px) 
+
+only screen and (min-width: 992px)
+
+</style>
+</head>
+<body>
+<header>
+<div class="profile" ></div>
+<h3>Your Weekly Updates</h3>
+</header>
+<hr>
+<div class="banner"></div>
+<main>
+Hi there!
+</br></br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ornare sagittis etiam morbi diam, feugiat cursus adipiscing. Pellentesque orci, tellus arcu turpis et facilisis aliquet integer. Justo aenean sit at sollicitudin. Donec enim, a aliquam aliquam dolor in quam maecenas. Neque consequat fermentum aenean arcu.Quam id scelerisque phasellus orci. Quam aliquet quam dolor faucibus amet sed malesuada.
+</br></br>
+Suspendisse elit et id viverra ac imperdiet commodo in amet. Dignissim elementum in ornare suscipit pulvinar. Non, amet, in tellus dignissim turpis dolor ultrices pretium auctor. Massa sit tempor convallis tortor sed. In nec ut quis euismod eget suscipit. Rhoncus blandit tellus urna, mattis egestas massa odio nascetur congue. Massa nibh ut ut tellus sit fringilla ultrices suspendisse luctus.
+</br></br>
+Best regards,
+</br>
+Name/Team ClientAppName
+</br>
+<div class="postcontainer">
+<div class="post">
+<label>OCT 04</label>
+<div class="postimage"></div>
+<div class="blog">
+<strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nec dolor eu blandit Nec dolouer eau blandit.</strong>
+</br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec dolor eu blandit suspendisse non in. Risus sed proin facilisis sed eget id. Vel amet mauris nibh mauris. Pulvinar quis amet, porta quis gravida. Libero eget porttitor pulvinar elit sed vit. Libero eget porttitor pulvinar elit sed quisvit. Libero eget porttitor pulvinar elit sed quis vit.
+</br></br>
+<a href="">Get more info</a>
+</div>
+</div>
+<hr/>
+<div class="post">
+<label>OCT 04</label>
+<div class="postimage right"></div>
+<div class="blog">
+<strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nec dolor eu blandit Nec dolouer eau blandit.</strong>
+</br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec dolor eu blandit suspendisse non in. Risus sed proin facilisis sed eget id. Vel amet mauris nibh mauris. Pulvinar quis amet, porta quis gravida. Libero eget porttitor pulvinar elit sed vit. Libero eget porttitor pulvinar elit sed quisvit. Libero eget porttitor pulvinar elit sed quis vit.
+</br></br>
+<a href="">Get more info</a>
+</div>
+</div>
+<hr/>
+<div class="post">
+<label>OCT 04</label>
+<div class="postimage"></div>
+<div class="blog">
+<strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nec dolor eu blandit Nec dolouer eau blandit.</strong>
+</br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec dolor eu blandit suspendisse non in. Risus sed proin facilisis sed eget id. Vel amet mauris nibh mauris. Pulvinar quis amet, porta quis gravida. Libero eget porttitor pulvinar elit sed vit. Libero eget porttitor pulvinar elit sed quisvit. Libero eget porttitor pulvinar elit sed quis vit.
+</br></br>
+<a href="">Get more info</a>
+</div>
+</div>
+<hr/>
+<div class="post">
+<label>OCT 04</label>
+<div class="postimage right"></div>
+<div class="blog">
+<strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nec dolor eu blandit Nec dolouer eau blandit.</strong>
+</br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec dolor eu blandit suspendisse non in. Risus sed proin facilisis sed eget id. Vel amet mauris nibh mauris. Pulvinar quis amet, porta quis gravida. Libero eget porttitor pulvinar elit sed vit. Libero eget porttitor pulvinar elit sed quisvit. Libero eget porttitor pulvinar elit sed quis vit.
+</br></br>
+<a href="">Get more info</a>
+</div>
+</div>
+<hr/>
+<div class="post">
+<label>OCT 04</label>
+<div class="postimage"></div>
+<div class="blog">
+<strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nec dolor eu blandit Nec dolouer eau blandit.</strong>
+</br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec dolor eu blandit suspendisse non in. Risus sed proin facilisis sed eget id. Vel amet mauris nibh mauris. Pulvinar quis amet, porta quis gravida. Libero eget porttitor pulvinar elit sed vit. Libero eget porttitor pulvinar elit sed quisvit. Libero eget porttitor pulvinar elit sed quis vit.
+</br></br>
+<a href="">Get more info</a>
+</div>
+</div>
+<hr/>
+</div>
+<div class="post">
+<label>OCT 04</label>
+<div class="postimage right"></div>
+<div class="blog">
+<strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nec dolor eu blandit Nec dolouer eau blandit.</strong>
+</br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec dolor eu blandit suspendisse non in. Risus sed proin facilisis sed eget id. Vel amet mauris nibh mauris. Pulvinar quis amet, porta quis gravida. Libero eget porttitor pulvinar elit sed vit. Libero eget porttitor pulvinar elit sed quisvit. Libero eget porttitor pulvinar elit sed quis vit.
+</br></br>
+<a href="">Get more info</a>
+</div>
+</div>
+<hr/>
+</main>
+<hr>
+<footer>
+Enjoying using Client'sAppName? Share the App</br>
+<div class="download">
+<div class="appstore"></div> <div class="googleplay"></div>
+</div>
+</br>
+For questions, you can reach out to us at <a href="mailto:client@contact.com">client@contact.com</a>
+</br></br>
+This email was sent to you because you downloaded the opp Client'sAppName and were added to the mailing list.</br> 
+if you would like to stop receiving such emails, you could <a href="#" style="text-decoration:none">unsubscribe.</a>
+</br></br>
+<big>
+Powered by NoCodeApp.Center</big>
+</footer>
+
+
+</body>
+</html> 
